@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Start - Proposal Presentation"
+date:   2018-12-05 14:20:00 +0800
+categories: School
+---
+
+# Start
+
+Today was the project proposal presentation. 
+We went through each steps and the features we might implement.
+
+Our idea was to use face recognition to enter classrooms as an alternative to using the student card as it can be inconvenient at times.
+Through face recognition, the student would not have to take out his/her card whenever he/she wants to go to the toilet.
+Currently, if the lecturer does not free up the door, or if the student forgets to bring the student card while going off to the toilet, someone else has to open the door from inside.
+While at first glance this is alright, it can be an annoyance at times.
+It can also be disturbing to the class.
+
+Assuming we have the face recognition up and working, we decided to apply our face recognition tech to other places. Such as automated class attendance.
+Therefore we proposed another feature in which the student can have their attendance taken automatically.
+This can help save time as signing on the piece of paper every lesson can add up to a lot of time taken.
+
+# After the proposal
+Our teacher gave us some feedback.
+The feedback was to mostly focus on class attendance as that had more impact problem wise.
+
+Therefore we will start focusing on automated class attendance over opening the door through face recognition.
+If time permits, both might be implemmented.
