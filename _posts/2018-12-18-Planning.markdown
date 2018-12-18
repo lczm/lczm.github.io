@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Technology Planning"
+date:   2018-12-18 16:00:00 +0800
+categories: School
+---
+
+# Planning
+
+This week I've been planning how I would proceed to work on the project.  The kinds of technology I would use and how i would go about using each of them.
+
+For the most part, It has been classified into two categories
+
+### Front-End
+This part would be handled by my groupmate, Joel.
+
+### Back-End
+I would mainly be working on the Back-End, which will mostly be doing the actual face recognition, as well as other features.
+Kinds of technologies I might use:
+Tensorflow/Keras/Scikit-Learn - This would be used for the machine learning portion of face recognition
+Sqlite3 - This would be used for the database portion.
+
+Other different technologies might come and go as I decide whether they fit into the project.
+
