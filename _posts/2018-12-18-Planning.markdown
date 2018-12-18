@@ -16,9 +16,14 @@ This part would be handled by my groupmate, Joel.
 
 ### Back-End
 I would mainly be working on the Back-End, which will mostly be doing the actual face recognition, as well as other features.
+
+
 Kinds of technologies I might use:
+
+
 Tensorflow/Keras/Scikit-Learn - This would be used for the machine learning portion of face recognition
 Sqlite3 - This would be used for the database portion.
+
 
 Other different technologies might come and go as I decide whether they fit into the project.
 
