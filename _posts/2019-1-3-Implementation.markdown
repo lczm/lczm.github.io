@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Technology Planning"
+title:  "Implementation"
 date:   2018-12-18 16:00:00 +0800
 categories: School
 ---
