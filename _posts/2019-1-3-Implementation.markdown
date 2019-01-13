@@ -30,4 +30,4 @@ In particular:
 In which the answer was to use a KNN classifier, in addition to the [face-recognition](https://github.com/ageitgey/face_recognition) library.
 
 
-Which, when compared to building the entire model from scratch, is significantly easier. However, there might be some problems with using it. At the moment, I do not know how well this will go. Accuracy might not be good, and thus require different methods of implementation. Further decisions will be made once i am able to identify if there are problems.
+Which, when compared to building the entire model from scratch, is significantly easier. However, there might be some problems with using it. At the moment, I do not know how well this will go. Accuracy might not be good, and thus require different methods of implementation. Further decisions will be made once I am able to identify if there are problems.

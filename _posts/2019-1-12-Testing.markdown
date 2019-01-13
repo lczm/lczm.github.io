@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Testing"
+date:   2019-1-12 15:30:00 +0800
+categories: School
+---
+
+# Testing
+This week I've been trying to find sample datasets, to perform face recognition on.
+Specifically, I've been looking for a dataset that provides celebrity faces with their names.
+Preferably with their face alone without much background noise or details.
+
+
+## Dataset
+So I have found a dataset which more or less fulfills what I want. With the exception that It requires some cleaning.
+[MSRA-CFW](https://www.microsoft.com/en-us/research/project/msra-cfw-data-set-of-celebrity-faces-on-the-web/)
+It has over 200000 faces and have a bunch of people that have labels on them, so I can train on those labels, as well as images.
+
+## Optimizing for the computer
+Computers read numbers really well. Espcailly numbers that are betweeon 0 and 1. However, numbers in colours in computers are generally between the rannge of 0-255. That is not so good.
+
+
+Photo with colour
+
+![alt text](./photos/jasper.jpg "Photo")
+
+From there we can optimize it by normalizing the entire photo. In toehr wrods, we can turn the entire image into grayscale. This will in turn make the numbers ranging from 0 and 1. This is better for the computer. This would also end up being more accurate for the computer.
+
+
+Ouptut : [show jasper face without color]
+
+
+Photo without colour
+
+![alt text](./photos/jasper2.jpg "Photo2")
+
+
+With this in mind, this week I have finished cleaning the data. Whats next would be to start building the structure for the entire program. Including the web interface. How the the frontend would interact with the backend would also be implemented in the following week.
