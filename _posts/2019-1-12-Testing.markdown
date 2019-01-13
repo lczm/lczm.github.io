@@ -22,14 +22,14 @@ Computers read numbers really well. Espcailly numbers that are betweeon 0 and 1.
 
 Photo with colour
 
-![Colour](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/jasper.jpg)
+![Photo with colour](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/jasper.jpg)
 
 From there we can optimize it by normalizing the entire photo. In toehr wrods, we can turn the entire image into grayscale. This will in turn make the numbers ranging from 0 and 1. This is better for the computer. This would also end up being more accurate for the computer.
 
 
 Photo without colour
 
-![No colour](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/jasper2.jpg)
+![Photo without colour](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/jasper2.jpg)
 
 
 
