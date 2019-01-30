@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "P1 : End"
+date:   2019-1-30 16:00:00 +0800
+categories: School
+---
+
+# End of the P1 Assignment
+Submission for the project has been done and the only thing left is the presentation during the demo day tomorrow.
+
+# The Frontend
+The frontend has been done, and shows a table of the user attendance. The pictures that each suer used to take attendance is also recorded down and accessable through the REST api to view.
+![Frontend](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/frontend.png)
+
+# User
+Each user also has their own individual page where you can view their attendance. Every user is given a route through the web browser and dynamically finds out the content of the webpage
+![User](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/user.png)
