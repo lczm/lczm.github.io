@@ -7,4 +7,3 @@ permalink: /about/
 # Ze Ming
 
 ### I like reading.
-### Especially good at being unproductive.
