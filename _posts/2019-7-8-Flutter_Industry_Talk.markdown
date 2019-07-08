@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Flutter Industry Talk"
+title:  "FP2 Industry Talk #1 - Flutter"
 date:   2019-7-08 16:00:00 +0800
 categories: School
 ---
-
-# FP2 Industry Talk #1 - Flutter
 
 ## Prologue
 The industry talk was hosted at [RedHat](https://www.google.com/maps/place/Red+Hat/@1.2759058,103.8451409,17z/data=!3m1!4b1!4m5!3m4!1s0x31da191377716ae1:0x166080ad6b7de256!8m2!3d1.2759058!4d103.8473349) as part of 
