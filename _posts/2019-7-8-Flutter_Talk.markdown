@@ -39,7 +39,7 @@ He then used a simple app to show demonstrate how easy it is to to prototype cod
 ## Epilogue
 Through this talk, I have learnt more about Flutter and in general the mobile app ecosystem. There are advantages and disadvantages to everything. With Flutter, it provides mdoern solutions to problems that were faced in the past, however it is still a technology in its maturity stage. 
 
-Despite that, I have decided to learn and use Flutter to build a prototype for [Splash Awards Stage B]() with my group. Going through the pros and cons, It is perfect for a simple prototype that can be done within a short amount of time with a certain elegance to it.
+Despite that, I have decided to learn and use Flutter to build a prototype for [Splash Awards Stage B](https://www.scs.org.sg/students/splash-awards.php) with my group. Going through the pros and cons, It is perfect for a simple prototype that can be done within a short amount of time with a certain elegance to it.
 
 #### Heres me and my friends at RedHat
 ![Happy Haris](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/redhat.jpg)
