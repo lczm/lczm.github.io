@@ -11,7 +11,7 @@ My first Service-Learning occurance was with [Delta Senior School](https://goo.g
 ## The first visit
 Two weeks before the workshop at NP, we visited Delta Senior School to familiarize ourselves with the students that we will be teaching. As well as to gain a better understanding of their situation, so that we can prepare ourselves for the workshop. It is also to get to know our partners better, so that during the workshop, we will be able to conduct ourselves better and appropriately.
 
-[!Service-learning at DSS](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/sl-dss.jpg)
+![Service-learning at DSS](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/sl-dss.jpg)
 
 At the same time, we also had to take photos with the students so that they can use the photos during the video editing workshop. Using pictures that they took themselves, around the school, they will be more engaged and invested to learn during the workshop
 
