@@ -6,7 +6,7 @@ categories: School
 ---
 
 # Introduction
-The opportunity Ngee Ann Polytechnic gave me to go through with Service-Learning, allowed me to go through an experience that I would have not otherwise. It gave me the experience of preparing and structuring a program for students at Delta Senior School. Together with my classmates, we prepared the students to learn how to video edit with Clipchamp by the end of Service-Learning.
+The opportunity Ngee Ann Polytechnic gave me to go through with Service-Learning, allowed me to go through an experience that I would have not otherwise. It gave me the experience of preparing and structuring a program for students at Delta Senior School. Together with my classmates, we prepared the students to learn how to video edit with Clipchamp, an online video editor,  by the end of Service-Learning.
 
 ![Clipchamp](https://clipchamp.com/wp-content/uploads/2018/03/Facebook-Share_Homepage.png)
 
