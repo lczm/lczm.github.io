@@ -19,6 +19,6 @@ I am working on the back-end side. We have decided that it will be best if we ta
 ## How is it going so far
 We have built a scrum board to help organize our work between our team members.
 
-![ScrumBoard](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/cosignScrumBoard1.png)
+![ScrumBoard](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/cosignScrumBoard1.jpg)
 
 As can be seen, we have already started working on some of the features (Done has some of the sticky notes). The ones on the 'Done' section are mainly on the back-end side that I am part of. Such as identifying a dataset, cleaning and preprocessing the dataset. This dataset might need to be expanded in the future, but this will do in the current situation. That is our progress for now, it is going at a decent pace. 
