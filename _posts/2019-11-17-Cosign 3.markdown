@@ -13,7 +13,7 @@ This ByteHackz 3-day school hackathon was a very useful experience for me. I hav
 Throughout this 3-day hackathon, I worked on the Cloud GPU Pipeline, RESTFUL endpoints, as processing images with a hand recognition model and directly interfacing on top of the openpose.
 
 ### Cloud GPU Pipeline
-I installed the necessary libraries and dependencies for the GPU to work as I intend for it to. These dependencies are the nvidia-cuda-toolit as well as cuDNN. Software dependencies are also installed to ensure that it uses the GPU.
+I installed the necessary libraries and dependencies for the GPU to work as I intend for it to. These dependencies are the nvidia-cuda-toolkit as well as cuDNN. Software dependencies are also installed to ensure that it uses the GPU.
 
 ### RESTFUL endpoints
 The endpoints should be a HTTP request to a public IP that Google Cloud can provide. The mobile application and the development clients should be able to use these endpoints to upload their image to the GPU, the GPU will then process the images and return the otuput.
