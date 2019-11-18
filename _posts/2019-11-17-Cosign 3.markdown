@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "P2 : Cosign 3"
+date:   2019-11-17 13:00:00 +0800
+categories: School
+---
+
+
+## ByteHackz Hackathon
+This ByteHackz 3-day school hackathon was a very useful experience for me. I have made substantial progress for Cosign. At the end of the hackathon, we were able to present a working prototype for what we wanted to build.
+
+## What I did in the hackathon
+Throughout this 3-day hackathon, I worked on the Cloud GPU Pipeline, RESTFUL endpoints, as processing images with a hand recognition model and directly interfacing on top of the openpose.
+
+### Cloud GPU Pipeline
+I installed the necessary libraries and dependencies for the GPU to work as I intend for it to. These dependencies are the nvidia-cuda-toolit as well as cuDNN. Software dependencies are also installed to ensure that it uses the GPU.
+
+### RESTFUL endpoints
+The endpoints should be a HTTP request to a public IP that Google Cloud can provide. The mobile application and the development clients should be able to use these endpoints to upload their image to the GPU, the GPU will then process the images and return the otuput.
+
+### Hand Recognition Model
+This model was very necessary to the product, as mentioned in Cosign 2. This hand recognition model is able to recognise hands, get a boundary box of the hand and these boundary box will then be passed to the openpose model. I then wrote a little script to expand the boundary box so that it is more reliable. As the hand recognition model often comes too close to the hand. Openpose, I discovered works much better with some slight padding around the hand. The current scaling factor for the boundary box is 1.3x. For now, it seems to work well. If needed, the scale can be dynamic to work with the image resolution, but it seems to be unncessary for now.
+
+### Openpose
+Openpose will be responsible for directly interfacing with the images and outputting the key points of the images. To achieve this, some preprocessing has to be done. The web server will first have to convert images received from the RESTFUL endpoint into a readable image format. The image will then have to be preproccessed into a usable image resolution (width, height). It will then go through the hand recognition model where boundary boxes will be identified. The boundary boxes will then be expanded by the scale. Then the coordinates, as well as the image will be passed into openpose. Openpose will return the coordinates of the key points as a JSON. This json can then be used from the mobile client and/or the development client, to ensure that everything is working properly.
