@@ -11,5 +11,9 @@ In FP3, the school has provided us with the opportunity to talk to various diffe
 ## Gigacover
 ![alt text](https://www.gigacover.com/img/logos/gc.logo.name.png "Gigacover")
 
+Gigacover is a company that works with insurance, as well as tech. They provide insurance for freelancers, contract workers and casual workers.
+
 ## CargoAI
 ![alt text](https://cargoai.co/wp-content/uploads/2019/07/cargoaiwebsitelogo-5-300x81.png "CargoAI")
+
+CargoAI is a air freight booking website that uses data and AI to provide the best possible rates. They also generate personalized reports based on current market trends, route price history, previous orders, space availability, and price.
