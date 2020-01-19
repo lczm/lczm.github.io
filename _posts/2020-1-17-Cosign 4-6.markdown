@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "P2 : Cosign 4-6"
+date:   2020-01-17 13:00:00 +0800
+categories: School
+---
+
+## Cosign Updates
+It has been a while since Cosign has been worked on. Since the ByteHackz hackathon, we have been thinking of various different ideas; brainstorming. We have decided that in order to make Cosign a more practical and usable application, we need to incorporate our technology as part of the learning suite.
+
+## User Registration
+Users should be able to register for an account and potentially even receive an email. This would involve a cloud server that will be active at all times to serve the users.
+
+## Goal Setting
+Users should be able to set goals. Such as "I want to learn X many words in Y many days". The application should reflect that in how many words it tries to teach the user everyday. This will also mean that the pace is set by the user; Own time own target.
+
+## Reminders
+In addition to the user being able to set goals, the application should also remind the user. In the case that the user sets goals and forgets to open the application to learn, the application itself should send reminders through notifications. This is so that the user can stay on track with the pace that he set himself.
+
+## Graphs and Charts
+Graphs and charts should also be built into the application, to give the user a sense of progression as he works on his learning.
+
+## Quality Of Life
+Quality of life improvements will also be added to the application. These improvements include, searching, side navigation, settings. 
+
+## Words
+We will also increase the amount of words/letters/numbers in the application. Before, we only had the basic numbers, we will try to more words while maintaining accuracy.
+
+## Model Accuracy
+We will also improve the prediction accuracy of our models to become more reliable, so that the user will have a smoother experience using the application
+
+## Testing
+We will also try to get our application tested with actual users, and receive feedback and implement the feedback.
+
+## Customizing Goals
+This is something that we thought of, we might not have the time to implement, but the user should also be able to change his goal half way through. In the case that he gets really busy.
+
