@@ -12,12 +12,19 @@ It has been a week since I posted the last blog post on cosign updates. We have 
 
 Categories
 ![Cosign Categories](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/cosignCategories.png)
+
+
 Statistics
 ![Cosign Statistics](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/cosignStatistics.png)
+
+
 Favourites
 ![Cosign Favourites](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/cosignFavourites.png)
+
+
 Profile
 ![Cosign Profile](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/cosignProfile.png)
+
 
 This is the final product, that the group has worked together to make.
 
