@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "P2 : Cosign 7"
+date:   2020-01-24 13:00:00 +0800
+categories: School
+---
+
+## Cosign Updates
+It has been a week since I posted the last blog post on cosign updates. We have made a lot of progress in the development of cosign in the past week.
+
+## What I have been working on 
+* Docker deployment of the backend prediction server
+* Docker deployment of the database-server to be used as a central location for the application
+* Learning how to work on android
+* Integrating the cloud database into the android application
+* Integrating the respective RESTful APIs for the andorid application
+* Statistics page for the android application
+* Integrating local model into the cloud prediction server
+
+## Docker deployment of the backend prediction server & database-server
+This has been done successfully. I started off by testing each of them in their own container. The volumes of the database-server also had to be configured. Adding nvidia daemons to access nvidia gpus for certain containers. Afterwards I used docker-compose to deploy the containers together. It has been working very well for a few days now. With this, the deployment process will always be the same and consistent. The docker containers are deployed on google cloud.
+
+## User Registation & Signing in
+I mentioned in the last blog post that the user would have to be able to register their accounts and log into the application. Now that the database-server is set up, I am able to work on this. Previouly, the registration and signing in process were done in a local database to the android application. That means that the data will not be able to persist through different installs. As well as the accounts will be different for everybody. Hence the need for a central database. 
+
+I worked on migrating the local database into the cloud database that is currently deployed. I successfully used the RESTful apis that the cloud database is now hosting to be able to register the user accounts as well as log in on the user accounts.
+
+![Cosign Sign In](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/cosignSignIn.png)
+![Cosign Register](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/cosignRegister.png)
+
+## Graphs and Charts
+I also have started working on the graphs and charts of the android application. They current show placeholder data, however they can be rendered. The next step would be to include the actual data once the application starts coming together.
+
+## Model Accuracy
+The model accuracy have been tested on a local computer to be around 80% accuracy. I will be working on migrating the model to the cloud prediction server. The real world accuracy has not been tested, but we have good hopes for it.
+
+## End
+That is all I have done for this week, the next week will be a hectic week with several features that need to be done.

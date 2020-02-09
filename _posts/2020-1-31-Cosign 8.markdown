@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "P2 : Cosign 8"
+date:   2020-01-31 13:00:00 +0800
+categories: School
+---
+
+## Cosign Updates
+It has been a week since I posted the last blog post on cosign updates. We have made a lot of progress in the development of cosign in the past week.
+
+## Here is the final product; Work done explained below..
+
+Categories
+![Cosign Categories](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/cosignCategories.png)
+Statistics
+![Cosign Statistics](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/cosignStatistics.png)
+Favourites
+![Cosign Favourites](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/cosignFavourites.png)
+Profile
+![Cosign Profile](https://raw.githubusercontent.com/lczm/lczm.github.io/master/_posts/photos/cosignProfile.png)
+
+This is the final product, that the group has worked together to make.
+
+## What I have been working on 
+* Integrating database into the statistics page
+* Writing helper functions for my group mates to use the database
+* Integrated prediction model into the cloud
+
+
+## Integrating database into the statistics page
+This means that the statistics page will ping the backend RESTful server for the data before showing it. Now that the data is centralied, the data that the user is shown will be kept consistently throughout different installs and different phones, as long as the user account is the same.
+
+I have also been experimenting with different charts
+* Bar Chart
+* Line Chart
+* Pie Chart
+
+It has mainly been these 3 charts that I have been experimenting with. Although in the end I have decided that the Line Chart is not needed, and that for my statistics page I will just be showing Bar and Pie Charts. They will show the the statistics of "Words learnt against target goal" in the form of a Pie chart. 
+
+## Helper functions 
+Mainly functions to help my group mates send data and retrieve data from the cloud database through the android application. This would help the favourites page, profile page.
+
+## Integrated prediction model into the cloud
+The prediction model has been successfully integrated into the cloud. After much troubles the accuracy is decently high and consistently predicting the right results. This is a huge win for us because we are able to store the words learnt into the database.
