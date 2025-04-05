@@ -1,6 +1,5 @@
 export type CollectionName = "blog" | "projects" | "talks";
 
-
 export type GlobalSite = {
   title: string;
   description: string;
@@ -13,38 +12,37 @@ export type GlobalSite = {
 };
 
 export const GLOBAL: GlobalSite = {
-  title: "Astro Milidev",
-  description: "a minimalistic blog+portfolio Astro theme",
-  author: "John Doe",
-  authorPhotoSrc: "/johndoe.png",
+  title: "Ze Ming's little space",
+  description: "Full of nonsensical ramblings and unthinkable insights",
+  author: "Ze Ming",
+  authorPhotoSrc: "/profile_cropped.jpg",
   logo: {
     darkThemeSrc: "/logo/logo_dark.png",
     lightThemeSrc: "/logo/logo_light.png",
-  }
+  },
 };
 
-
-type CollectionSite =  {
+type CollectionSite = {
   pageSize: number;
 };
 
-type HomeSite =  {
+type HomeSite = {
   blogEntries?: number;
   projectEntries?: number;
   talkEntries?: number;
-}
+};
 
 export const HOME: HomeSite = {
-  blogEntries: 5,
-  projectEntries: 3,
-  talkEntries: 3,
+  blogEntries: 0,
+  projectEntries: 0,
+  talkEntries: 0,
 };
 
 type BlogSite = CollectionSite & {
   license: {
     name: string;
     href: string;
-  }
+  };
 };
 
 export const BLOG: BlogSite = {
@@ -71,27 +69,18 @@ type ContactInfo = {
   type: string;
   href: string;
   displayAs?: string;
-}
+};
 
-type ContactSite = ContactInfo[]
+type ContactSite = ContactInfo[];
 
 export const CONTACT: ContactSite = [
   {
     type: "Email",
-    href: "mailto:email@example.com",
-    displayAs: "email@example.com",
-  },
-  {
-    type: "X",
-    href: "https://x.com/BillGates",
-    displayAs: "@BillGates on X",
+    href: "mailto:zemingchua@gmail.com",
+    displayAs: "zemingchua@gmail.com",
   },
   {
     type: "GitHub",
-    href: "https://github.com/dotnet",
-  },
-  {
-    type: "LinkedIn",
-    href: "https://www.linkedin.com/in/williamhgates/",
+    href: "https://github.com/lczm",
   },
 ];

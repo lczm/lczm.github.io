@@ -11,42 +11,17 @@ const { small } = Astro.props;
 
 <div style={small ? "font-size: 0.875rem" : ""}>
   <p>
-    Astro Milidev is a minimalistic portfolio+blog <TextLink
-      href="https://astro.build">Astro</TextLink
-    > theme.
+    Currently a student based in Singapore, interested in software engineering, compilers and occasionally math.
   </p>
 
-  <p>
-    It originates from <TextLink href="https://github.com/trevortylerlee"
-      >Trevor Lee</TextLink
-    >'s <TextLink href="https://astro-micro.vercel.app/">Astro Micro</TextLink> theme,
-    which is based on <TextLink href="https://github.com/markhorn-dev"
-      >Mark Horn</TextLink
-    >'s <TextLink href="https://astro-nano-demo.vercel.app/"
-      >Astro Nano</TextLink
-    > (after "nano" and "micro" comes "mili", hence the first part of the name).
-  </p>
+  <span>
+    Here are some things I've built over the years:
+  </span>
 
-  <p>
-    Astro Milidev enhances the above codebases with a variety of features. I
-    customized the original theme for my personal website, and also refactored
-    core parts of the code, making it more customizable and extensible.
-  </p>
-
-  <p>
-    The changelog is available in this post: <TextLink
-      href={resolvePath(
-        "/blog/everything-new-in-astro-milidev",
-        Astro.url.pathname,
-      )}>Everything new in Astro Milidev</TextLink
-    >. Another post <TextLink
-      href={resolvePath("/blog/getting-started", Astro.url.pathname)}
-      >Getting started</TextLink
-    > explains the configuration process step by step. The code is MIT-licensed and
-    available on <TextLink href="https://github.com/bartoszlenar/astro-milidev"
-      >GitHub</TextLink
-    >.
-  </p>
-
-  <p>Enjoy!</p>
+  <ul>
+    <li>A movie aggregator <TextLink href="https://lczm.github.io/watchwhatwhere">watchwhatwhere</TextLink></li>
+    <li>A web view for NLB seating availability <TextLink href="https://lczm.github.io/nlb-seatings">nlb-seatings</TextLink></li>
+    <li>A toy programming language <TextLink href="https://github.com/lczm/as">as</TextLink></li>
+    <li>A 3D game engine <TextLink href="https://github.com/lczm/lucid">lucid</TextLink></li>
+  </ul>
 </div>
