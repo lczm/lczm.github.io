@@ -1,4 +1,3 @@
-import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
 
 import mdx from "@astrojs/mdx";
@@ -9,7 +8,7 @@ import pagefind from "astro-pagefind";
 export default defineConfig({
   site: "https://lczm.github.io",
   base: "/",
-  integrations: [tailwind(), sitemap(), mdx(), pagefind()],
+  integrations: [sitemap(), mdx(), pagefind()],
   markdown: {
     shikiConfig: {
       theme: "css-variables",

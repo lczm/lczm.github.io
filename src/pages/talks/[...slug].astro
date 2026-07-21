@@ -4,18 +4,19 @@ import Container from "@components/Container.astro";
 import EntryHeader from "@components/EntryHeader.astro";
 import TableOfContents from "@components/TableOfContents.astro";
 import Layout from "@layouts/Layout.astro";
+import { render } from "astro:content";
 import { getFilteredCollectionEntries, resolvePath } from "@lib/utils";
 
 export async function getStaticPaths() {
   const { entries } = await getFilteredCollectionEntries("talks");
   return entries.map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: post.id },
     props: post,
   }));
 }
 
 const entry = Astro.props;
-const { Content, headings } = await entry.render();
+const { Content, headings } = await render(entry);
 ---
 
 <Layout
@@ -29,7 +30,7 @@ const { Content, headings } = await entry.render();
         >All talks</BackToPrevious
       >
     </div>
-    <EntryHeader {...entry.data} body={entry.body} />
+    <EntryHeader {...entry.data} body={entry.body ?? ""} />
     {headings?.length ? <TableOfContents headings={headings} /> : undefined}
     <article class="animate">
       <hr />
