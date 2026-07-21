@@ -1,6 +1,5 @@
 ---
 import TextLink from "@components/TextLink.astro";
-import { resolvePath } from "@lib/utils";
 
 type Props = {
   small?: boolean;
@@ -19,7 +18,8 @@ const { small } = Astro.props;
   </span>
 
   <ul>
-    <li>A movie aggregator <TextLink href="https://lczm.github.io/watchwhatwhere">watchwhatwhere</TextLink></li>
+    <li>A bullet hell you can play online, try to beat it :) <TextLink href="https://lczm.github.io/shaper">shaper</TextLink></li>
+    <!-- <li>A movie aggregator <TextLink href="https://lczm.github.io/watchwhatwhere">watchwhatwhere</TextLink></li> -->
     <li>A web view for NLB seating availability <TextLink href="https://lczm.github.io/nlb-seatings">nlb-seatings</TextLink></li>
     <li>A flash cards web app <TextLink href="https://lczm.github.io/memplease">memplease</TextLink></li>
     <li>A toy programming language <TextLink href="https://github.com/lczm/as">as</TextLink></li>
